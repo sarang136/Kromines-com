@@ -1,0 +1,553 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+/* Override UGG site */
+*{
+  scroll-behavior: smooth;
+}
+#main {
+  width: 100%;
+  padding: 0;
+}
+
+.content-asset p {
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  display: none;
+}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {
+  padding-top: 10px;
+}
+
+.margin-bot-10 {
+  padding-bottom: 10px;
+}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#parallax-world-of-ugg h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 10;
+  opacity: .9;
+}
+
+#parallax-world-of-ugg h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  line-height: 0;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: black;
+}
+
+#parallax-world-of-ugg p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.first-character {
+  font-weight: 400;
+  float: left;
+  font-size: 84px;
+  line-height: 64px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sc {
+  color: #3b8595;
+}
+
+.ny {
+  color: #3d3c3a;
+}
+
+.atw {
+  color: #c48660;
+}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {
+  background: white;
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#parallax-world-of-ugg .title h1 {
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+/* Buttons */
+.button {
+  /* margin-top: 0px; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  /* margin-top: 10px; */
+  /* padding: 10px; */
+}
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff; /* Text color */
+  border: 1px solid #ffffff; /* Border color */
+  background-color: transparent; /* Transparent background */
+  border-radius: 30px; /* Rounded corners */
+  transition: all 0.3s ease-in-out;
+  width: 100px;
+}
+
+/* Hover Effect */
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light transparent background */
+  color: #ffffff;
+}
+
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {
+  background: white;
+  padding: 60px;
+  width: 820px;
+  margin: 100px auto;
+  text-align: justify;
+}
+
+#parallax-world-of-ugg .block-gray {
+  background: #f2f2f2;
+  padding: 60px;
+}
+
+#parallax-world-of-ugg .section-overlay-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.70;
+}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#parallax-world-of-ugg .parallax-two {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1432163230927-a32e4fd5a326?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#parallax-world-of-ugg .parallax-three {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {
+  border-bottom: 1px solid black;
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {
+    padding: 40px;
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+    width: 420px;
+  }
+
+  #parallax-world-of-ugg h2 {
+    font-size: 30px;
+  }
+
+  #parallax-world-of-ugg .block {
+    padding: 30px;
+  }
+
+  #parallax-world-of-ugg .parallax-one,
+  #parallax-world-of-ugg .parallax-two,
+  #parallax-world-of-ugg .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {
+    padding: 30px 15px;
+    width: 290px;
+  }
+}
+
+
+/* About us*/
+/* Grid Container */
+.grid-block{
+  height: 100vh;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 2 Columns */
+  grid-template-rows: repeat(2, 1fr); /* 3 Rows */
+  gap: 15px; /* Spacing between grid items */
+  width: 80%;
+  margin: 10px -75px;
+  padding: 20px;
+}
+
+/* Grid Items */
+.grid-item {
+
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* margin-left: 10px; */
+  height: 50vh;
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.grid-item h4{
+  margin-left: 12px;
+  margin-top: 44px;
+}
+.grid-item1{
+  background-image: url(grid-images/image-1.jpeg);
+}
+.grid-item2{
+  background-image: url(grid-images/image-2.jpg);
+  background-size: cover;
+}
+.grid-item3{
+  background-image: url(grid-images/image-3.gif);
+  background-size: cover;
+  
+}
+.grid-item4{
+  background-image: url(grid-images/image-4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid-item5{
+  background-image: url(grid-images/image-5.webp);
+}
+.grid-item6{
+  background-image: url(grid-images/image-6.jpeg);
+  background-size:cover ;
+}
+
+/* Hover Zoom Effect */
+.grid-item:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* section4 */
+.section4{
+  margin-top: 200px;
+}
+
+/* Footer */
+/* Footer Container */
+.galactic-footer {
+  background: linear-gradient(to right, #112F41, #068587);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Flex Layout */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Footer Sections */
+/* Footer Container */
+.galactic-footer {
+  background: linear-gradient(to right, #112F41, #068587);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Flex Layout */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Footer Sections */
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+/* Section Headings */
+.footer-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+/* Underline Effect for Headings */
+.footer-section h3::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background: #0CDEBE;
+  margin: 5px auto;
+}
+
+/* Contact Links */
+.footer-section a {
+  color: #0CDEBE;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-section a:hover {
+  color: #ED553B;
+}
+
+/* Quick Links */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect for Links */
+.footer-section ul li a:hover {
+  color: #ED553B;
+  transform: scale(1.1);
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  margin-top: 20px;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 0.9rem;
+}
+
+/* Designer Name Effect */
+.designer-name {
+  font-weight: bold;
+  color: #0CDEBE;
+  transition: color 0.3s ease-in-out;
+}
+
+.designer-name:hover {
+  color: #ED553B;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+/* back to top button */
+
+/* Floating Button */
+.astro-float-btn {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  background: linear-gradient(45deg, #068587, #0CDEBE);
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+  font-family: Arial, sans-serif;
+}
+
+/* Hover Effect */
+.astro-float-btn:hover {
+  background: linear-gradient(45deg, #0CDEBE, #ED553B);
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Side navbar */
+/* Navbar Styling */
+.nebula-navbar {
+  position: fixed;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgb(18 28 33 / 90%);; 
+  padding: 10px 0;
+  width: 117px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Navbar Hover Effect (Slide in) */
+.nebula-navbar:hover {
+  transform: translateY(-50%) translateX(0);
+}
+
+/* Navbar List */
+.nebula-navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+/* Navbar Links */
+.nebula-navbar ul li {
+  padding: 15px 20px;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.nebula-navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.nebula-navbar ul li:hover {
+  background: #068587;
+  transform: translateX(10px);
+}
+
+.nebula-navbar ul li a:hover {
+  color: #ED553B;
+}
+
+/* Animation: Navbar Slide-in Effect */
+@keyframes slideInNavbar {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.nebula-navbar {
+  animation: slideInNavbar 1s ease-in-out;
+}
